@@ -1,0 +1,121 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+
+body{
+    background-color: white;
+
+}
+h1{
+   font-family: Monotype Corsiva ;
+   font-size: 70px;
+   text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.left-image {
+    margin-right: 20px; 
+}
+
+.right-images {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#containergrand{
+    background-color: #ffffff;
+    border-radius: 3%;
+    border: 2px solid #000; 
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ 
+ #containergrand input {
+     text-align: center;
+     margin-block: auto;
+ }
+ 
+ #containergrand select {
+     text-align: center;
+     margin-block-end: auto;
+ }
+ 
+  #containergrand .input-container {
+     margin-left: 0%;
+     justify-content: space-between;
+ }
+ 
+ 
+ #containergrand img {
+     max-width: auto;
+     height: 100%; 
+     float: left;
+     display: flex;
+ 
+ }
+
+
+
+.pied-de-page {
+    background-color: #EFF0F4;
+    color: #505762;
+    padding: 40px; /* Rembourrage pour le pied de page */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 578px) {
+    .pied-de-page {
+        flex-direction: column;
+    }
+}
+
+.pied-de-page {
+    position: relative;
+}
+    
+    
+span{
+    text-decoration: underline;
+}
+.ligne {
+    margin-bottom: 40px; /* Espacement entre les lignes */
+}
+.input-container input[type="text"] {
+
+    margin-right: 100px; /* Espacement entre les champs de texte horizontalement */
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px ;
+    outline: 1px solid black;
+}
+.input-container input#lieu {
+    width: 300px; /* Ajustez la valeur de largeur selon vos besoins */
+}
+.input-container input#Tarif {
+    width: 300px; /* Ajustez la valeur de largeur selon vos besoins */
+}
+#containergrand {
+    background-color: #4ECCA3; /* Remplacez la valeur par la couleur de fond que vous souhaitez */
+}
+.input-container input#Groupe {
+    width: 300px; /* Ajustez la valeur de largeur selon vos besoins */
+}
+.input-container textarea#bio {
+    width: 1300px; /* Largeur de 100% pour remplir le conteneur */
+    height: 500px; /* Ajustez la valeur de hauteur selon vos besoins */
+    margin-left: 30px;
+    border-radius: 10px;
+    outline: 1px solid black;
+}
+#choixStatut {
+    outline: 2px solid black; /* Exemple de bordure noire de 2 pixels */
+    border-radius: 5px; /* Pour des coins arrondis */
+}
